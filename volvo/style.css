@@ -1,0 +1,172 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: volvo;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: volvo;
+  src: url(https://fontsfree.net//wp-content/fonts/basic/sans-serif/FontsFree-Net-Volvo-Novum-Medium-1.ttf);
+}
+@font-face {
+  font-family: volvobroad;
+  src: url(font/VolvoBroad.woff);
+}
+.firstBackgroundPhoto {
+  background-image: url("images/bannerbg.jpg");
+  background-position: center;
+  min-height: 750px;
+  background-size: cover;
+}
+.bannertext{
+  height: 500px;
+  width: 100%;
+}
+.people{
+  font-size: 72px;
+  line-height: 85px;
+  letter-spacing: 5px;
+}
+/* ============= CAROUSEL ================ */
+.card img {
+  height: auto;
+  max-width: 100%;
+}
+
+.owl-carousel {
+  max-width: 100%;
+}
+
+.owl-stage {
+  display: flex;
+  justify-content: center;
+}
+
+.owl-item {
+  /* padding-right: 20px; */
+  padding-left: 20px;
+}
+
+.owl-stage-outer {
+  overflow: hidden;
+}
+
+.owl-item {
+  padding-right: 10px;
+}
+.owl-theme .owl-dots .owl-dot .active span, .owl-theme .owl-dots .owl-dot:hover span{
+  background: blue;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover{
+  color: blue;
+}
+.owl-next, .owl-prev{
+  color: rgb(209, 203, 203);
+}
+.owl-prev span, .owl-next span{
+  font-size: 100px;
+}
+.owl-nav{
+  display: none;
+}
+/* ============= CAROUSEL END ================ */
+
+.explore_volvo {
+  color: #6d6d6e;
+}
+
+.global_customer {
+  font-size: 32px;
+  line-height: 38px;
+  color: #4d4e53;
+}
+
+.movie {
+  width: 100%;
+  height: auto;
+}
+
+.joinusdiv {
+  width: 50%;
+}
+
+.copyright {
+  margin-top: 70px;
+  text-align: end;
+  padding-right: 30px;
+  font-size: 12px;
+}
+
+.first {
+  margin: 0px 0px 5px 0px;
+  color: #808085 !important;
+}
+
+.middot {
+  padding: 0px 10px 0px 10px;
+}
+
+.foot-tag,
+.privacy {
+  cursor: pointer;
+  padding: 5px 1px 5px 1px;
+}
+
+.foot-tag:hover,
+.privacy:hover {
+  color: #6D6D6E;
+  transition: 0.2s;
+}
+
+.footer {
+  padding: 80px 20px 10px 100px;
+}
+
+.foot_tex {
+  color: rgb(255, 255, 255);
+}
+
+.foot_head,
+.our_offer {
+  color: #DEDCDA;
+}
+
+.first {
+  color: #4d4e53;
+}
+.owl-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.owl-dot {
+  height: 2px;
+  width: 40px;
+  margin: 0 10px;
+  background-color: #333;
+  border-radius: 0;
+  transition: all 0.3s ease;
+}
+
+.owl-dot.active {
+  width: 80%;
+}
+
+.owl-controls {
+  height: 60px;
+}
+.sheild {
+  position: fixed;
+  bottom: 0;
+  z-index: 1055; 
+  width: 60px;
+}
+
+
+
+
+
+
+
+
